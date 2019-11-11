@@ -9,7 +9,6 @@
 # 2019/11/11 (i0608156): Versión inicial.
 #
 # ==============================================================================
-# http://devdksop02.aysa.ad/STAFF/dockerfiles/tree/master/mssql/2017
 
 FROM mcr.microsoft.com/mssql/server:2017-latest
 LABEL maintainer "Alejandro M. BERNARDIS"
