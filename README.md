@@ -96,7 +96,7 @@ docker build -t mssql:2017-volume -f wv.Dockerfile .
 ```sql
 -- Arguments
 -- ~~~~~~~~~
---    username      > Usuario ([IA]=AySA; X=Externo) Ex: A0123789
+--    username      > Usuario Ex: A0123456
 --    password      > Contraseña (default='PassW0rd')
 --    service       > Usuario de Servicio (0=NO (default), 1=YES)
 --
@@ -125,7 +125,7 @@ sp_create_login
 ```sql
 -- Arguments
 -- ~~~~~~~~~
---    username > Usuario ([IA]=AySA; X=Externo) Ex: A0123789
+--    username > Usuario Ex: A0123456
 --    database > Base de Datos ([STRING]=N'db_name';
 --                              [JSON]=N'{"databases": ["db_name", "..."]}')
 --
